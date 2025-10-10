@@ -1,0 +1,10 @@
+fn main() {
+	let n = 5.0;
+	let r = 10.0;
+	let p = 520000000.0;
+	let x = 1 + r / 100.0;
+	let a = p * x.powf(n);
+	let c = a - p;
+	println!("compound interest = {}" , c);
+	println!("amount = {}" , a);
+}
