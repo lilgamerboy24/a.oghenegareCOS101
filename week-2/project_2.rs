@@ -7,13 +7,8 @@ fn main() {
 
 	let sum: f64 = a + b + c + d + e; // i will sum all the variables to get sum
 
-	let f: f64 = 2.0; // i put all the quantity in variables each to be summed
-	let g: f64 = 1.0;
-	let h: f64 = 3.0;
-	let i: f64 = 3.0;
-	let j: f64 = 1.0;
-	let total_qty: f64 = f + g + h + i + j; // i summed all the quantity variables in order to get average
-	let average: f64 = sum / total_qty; // i got the average
+	let f: f64 = 5.0; //the number of goods
+	let average: f64 = sum / f;
 
 	println!("The sum of the sales record = {}" , sum);
 	println!("the average of the sales record = {}" , average);
